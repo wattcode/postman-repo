@@ -1,6 +1,6 @@
 {
   "name": "postman-splitter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This command-line project can be used to import/export individual requests to/from a Postman collection",
   "main": "index.js",
   "scripts": {},
