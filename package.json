@@ -1,0 +1,23 @@
+{
+  "name": "postman-splitter",
+  "version": "1.0.0",
+  "description": "This command-line project can be used to import/export individual requests to/from a Postman collection",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "postman": "./index.js"
+  },
+  "author": "Connor Fitzgerald",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cfitz1995/postman-splitter.git"
+  },
+  "dependencies": {
+    "commander": "^2.19.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.3"
+  }
+}

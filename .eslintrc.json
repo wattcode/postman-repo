@@ -1,0 +1,25 @@
+{
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+    "plugins": [],
+    "rules": {
+        "arrow-parens": 0,
+        "global-require": 0,
+        "import/no-dynamic-require": 0,
+        "key-spacing": [
+            "error", 
+            { "align": "colon" }
+        ],
+        "indent": ["error", 4],
+        "max-len": 0,
+        "prefer-promise-reject-errors": 0,
+        "quote-props": 0,
+        "valid-typeof": 0
+    }
+}
