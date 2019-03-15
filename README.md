@@ -1,4 +1,4 @@
-# postman-slitter
+# postman-splitter
 
 A command-line utility which can be used to import/export individual requests to/from a Postman collection.
 
