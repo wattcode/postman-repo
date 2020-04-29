@@ -7,11 +7,11 @@
   "bin": {
     "postman": "./index.js"
   },
-  "author": "Connor Fitzgerald",
+  "author": "Ben Watt", 
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cfitz1995/postman-splitter.git"
+    "url": "https://github.com/wattcode/postman-splitter.git"
   },
   "dependencies": {
     "commander": "^2.19.0",
@@ -19,5 +19,6 @@
     "mz": "^2.7.0",
     "path": "^0.12.7",
     "shelljs": "^0.8.3"
-  }
+  },
+  "devDependencies": {}
 }

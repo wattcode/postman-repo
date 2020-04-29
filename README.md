@@ -22,3 +22,6 @@ postman import <requestPath> <collectionPath>
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+//"Connor Fitzgerald",
+//"https://github.com/cfitz1995/postman-splitter.git"
