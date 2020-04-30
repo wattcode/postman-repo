@@ -1,6 +1,6 @@
 {
   "name": "postman-repo",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "This command-line project can be used to manage postman collection in source control",
   "main": "cli.js",
   "scripts": {},

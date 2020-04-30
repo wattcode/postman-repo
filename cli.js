@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('mz/fs');
 const path = require('path');
 const program = require('commander');
