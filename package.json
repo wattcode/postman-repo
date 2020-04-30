@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "bin": {
-    "postman": "./index.js"
+    "postman-repo": "./index.js"
   },
   "author": "Ben Watt", 
   "license": "MIT",
