@@ -1,7 +1,7 @@
 {
-  "name": "postman-splitter",
+  "name": "postman-repo",
   "version": "1.0.2",
-  "description": "This command-line project can be used to import/export individual requests to/from a Postman collection",
+  "description": "This command-line project can be used to manage postman collection in source control",
   "main": "index.js",
   "scripts": {},
   "bin": {
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wattcode/postman-splitter.git"
+    "url": "https://github.com/wattcode/postman-repo.git"
   },
   "dependencies": {
     "commander": "^2.19.0",

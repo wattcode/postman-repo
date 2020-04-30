@@ -1,27 +1,27 @@
-# postman-splitter
+# postman-repo
 
-A command-line utility which can be used to import/export individual requests to/from a Postman collection.
+A command-line utility to allow for simple management of postman collections in source control.
 
 ### Installing
 
 ```
-npm i -g postman-splitter
+npm i --save-dev postman-repo
 ```
-
-## Running the tests
-
-Explain how to run the automated tests for this system
 
 ### Usage
 
-```
-postman export <collectionPath> [-o outputDirectory]
-postman import <requestPath> <collectionPath>
-```
+| Command                                                | Description                                                    |
+|--------------------------------------------------------|----------------------------------------------------------------|
+| `npx postman-repo -h`                                  | List available commands                                        |
+| `npx postman-repo import <path-to-postman-collection>` | Import an exported collection from postman into source control |
+| `npx postman-repo list`                                | List all collections in this repository                        |
+| `npx postman-repo build <source-collection>`           | Build a source collection                                      |
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-//"Connor Fitzgerald",
-//"https://github.com/cfitz1995/postman-splitter.git"
+## Fork
+
+This is a fork of [https://github.com/cfitz1995/postman-splitter.git](postman-splitter) by Connor Fitzgerald
