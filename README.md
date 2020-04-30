@@ -13,6 +13,7 @@ npm i --save-dev postman-repo
 | Command                                                | Description                                                    |
 |--------------------------------------------------------|----------------------------------------------------------------|
 | `npx postman-repo -h`                                  | List available commands                                        |
+| `npx postman-repo init`                                | Create required folders                                        |
 | `npx postman-repo import <path-to-postman-collection>` | Import an exported collection from postman into source control |
 | `npx postman-repo list`                                | List all collections in this repository                        |
 | `npx postman-repo build <source-collection>`           | Build a source collection                                      |

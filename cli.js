@@ -58,7 +58,7 @@ program
 
         collection.name = collection.info.name;
 
-        const outputDirectory = path.resolve("./src");
+        const outputDirectory = path.resolve(path.join(process.cwd(), "/src"));
         const infoOutput = path.join(outputDirectory, collection.name);
 
         if(!await fs.exists(infoOutput)) {
@@ -104,12 +104,33 @@ program
     .name('list')
     .description('List all source collections')
     .action(async () => {
-        let collections = await fs.readdir("./src");
+        try {
 
-        for(collection of collections) {
-            console.log(collection)
+            let collections = await fs.readdir(path.join(process.cwd(), "src"));
+            collections.forEach(c => console.log(c));
+
+        } catch(ex) 
+        {
+            console.log(ex);
         }
     });
+
+program
+.command('init')
+.name('init')
+.description('Create required folders in repository')
+.action(async () => {
+    const srcPath = path.join(process.cwd(), "src");
+    const publicPath = path.join(process.cwd(), "public");
+
+    if(!await fs.exists(srcPath)) {
+        fs.mkdir(srcPath);
+    }
+
+    if(!await fs.exists(publicPath)) {
+        fs.mkdir(publicPath);
+    }
+});
 
     class CollectionBuilder {
         _matchCondition = ".json";
